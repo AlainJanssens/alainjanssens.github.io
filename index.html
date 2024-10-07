@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script type="text/turtle">
+@prefix :       <http://schema.org/> .
+@prefix course: <https://pietercolpaert.be/teaching/lds/#> .
+
+<https://example.org/AlainJanssens>
+    a               :Person ;
+    :name           "Alain Janssens" ;
+    :age            48 ;
+    :role           "Student" ;
+    :participatesIn course:2024-2025 ;
+    :interest       "Linked Data and Solid" ;
+    :university     "UGent" .
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "course": "https://pietercolpaert.be/teaching/lds/#"
+            },
+            "@type": "Person",
+            "@id": "https://example.org/AlainJanssens",
+            "name": "Alain Janssens",
+            "age": 48,
+            "role": "Student",
+            "participatesIn": "course:2024-2025",
+            "interest": "Linked Data and Solid",
+            "university": "UGent"
+        }
+    </script>
+</head>
+<body>
+<h1>Hello</h1>
+</body>
+</html>
