@@ -10,5 +10,6 @@
     :participatesIn course:2024-2025 ;
     :interest       "Linked Data and Solid" ;
     :university     "UGent" ;
-    foaf:knows <https://bogaert.cloud/me.ttl> ;
-    foaf:knows <https://janvanrensbergen.github.io/#me> .
+    foaf:knows <https://bogaert.cloud/me.ttl>,
+               <https://janvanrensbergen.github.io/#me>,
+               <https://pietercolpaert.be/#me> .
