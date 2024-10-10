@@ -12,4 +12,5 @@
     :university     "UGent" ;
     foaf:knows <https://bogaert.cloud/me.ttl>,
                <https://janvanrensbergen.github.io/#me>,
-               <https://pietercolpaert.be/#me> .
+               <https://pietercolpaert.be/#me>,
+               <https://domenique.github.io/#me> .
