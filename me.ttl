@@ -1,0 +1,14 @@
+@prefix :       <http://schema.org/> .
+@prefix course: <https://pietercolpaert.be/teaching/lds/#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://alainjanssens.github.io/#me>
+    a               :Person ;
+    :name           "Alain Janssens" ;
+    :age            48 ;
+    :role           "Student" ;
+    :participatesIn course:2024-2025 ;
+    :interest       "Linked Data and Solid" ;
+    :university     "UGent" ;
+    foaf:knows <https://bogaert.cloud/me.ttl> ;
+    foaf:knows <https://janvanrensbergen.github.io/#me> .
